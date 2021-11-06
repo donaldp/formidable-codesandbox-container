@@ -1,0 +1,37 @@
+{
+  "name": "formidable-fullstack",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Donald Pakkies",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "craftsman build",
+    "build:dev": "craftsman build --env=development",
+    "build:test": "craftsman build --env=testing",
+    "build:prod": "craftsman build --env=production",
+    "start": "craftsman serve",
+    "start:dev": "craftsman serve --dev",
+    "test": "jest --roots test",
+    "test:watch": "jest --roots test --watchAll",
+    "postinstall": "craftsman key"
+  },
+  "dependencies": {
+    "@bugsnag/js": "^7.13.2",
+    "@formidablejs/bugsnag-plugin": "^0.0.2",
+    "@formidablejs/craftsman": "^0.6.2",
+    "@formidablejs/framework": "^0.6.7",
+    "@formidablejs/helpers": "^0.1.1",
+    "@formidablejs/mailer": "^0.2.0-alpha.1",
+    "@formidablejs/pretty-errors": "^0.0.3",
+    "@formidablejs/stubs": "^0.2.3",
+    "imba": "^2.0.0-alpha.183",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.4",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}
