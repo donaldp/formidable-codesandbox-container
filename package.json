@@ -13,7 +13,8 @@
     "start": "craftsman serve",
     "start:dev": "craftsman serve --dev",
     "test": "jest --roots test",
-    "test:watch": "jest --roots test --watchAll"
+    "test:watch": "jest --roots test --watchAll",
+    "key:gen": "craftsman key"
   },
   "dependencies": {
     "@bugsnag/js": "^7.13.2",
